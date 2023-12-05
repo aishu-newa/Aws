@@ -1,89 +1,77 @@
-	Introduction
+**	Introduction **
 
- 	What is cloud computing?
+# 	What is cloud computing?
             Cloud computing is a technology that allows user to access and use computer resources like server, storage, db, networking, software, and more over the internet instead of relaying on local servers or personal devices, cloud computing uses a network of remote servers hosted on the internet to store, manage, and process data. This enables businesses and individuals to scale resources, access applications, and store data without the need for physical infrastructure. It’s a flexible and cost effective way to utilize computing power.
 
 
-
- 	Deployment models in cloud?
-Here are 5 diff deployment models in cloud computing 
-1.	Public cloud : owned by third party providers 
-                        Resources shared with public users
-                        Cost effective and scalable.
- 
-2	Private cloud: exclusively used by a single organization
-                         Can be on-permises or hosted by a provider
-                        Offers high control and security.
-
-3	Hybrid cloud: combination of public and private clouds
-                        Allows data and applications sharing 
-                       Balances security and scalability.
-
-4	Community cloud: shared by organizations with common concerns 
-                                Can be managed by organizations or a third party 
-                                  Tailored to specific communities or groups.
-
-5	Multi cloud: utilizes services from multiple cloud providers
-                     Optimizes performances, cost, and resources
-                       Leverages strengths of different providers 
-
-These models provide options for organizations to select the cloud environment that aligns best with their specific needs and objectives.
+# 	Deployment models in cloud?
+            Here are 5 diff deployment models in cloud computing 
+                            1.	Public cloud 
+                            2.	Private cloud
+                            3.	Hybrid cloud
+                            4.	Community cloud
+                            5.	Multi cloud
+           These models provide options for organizations to select the cloud environment that aligns best with their specific needs and objectives.
 
 
- 	Service models in cloud?
-1  Iaas {infrastructure as a service} : provides virtualized computing resource. Users manage applications , data, and runtime environment.
+# 	Service models in cloud?
+       1  Iaas {infrastructure as a service} :
+                     provides virtualized computing resource.
+                     Users manage applications , data, and runtime environment.
 
- 2  paas {platform as a service} : offers a platform for application development and deployment. Developers focus on coding, while platform handles infrastructure.
+       2  paas {platform as a service} :
+                     offers a platform for application development and deployment.
+                     Developers focus on coding, while platform handles infrastructure.
 
-3  saas { software as a service} : delivers ready to use software over the internet. No need for local installation or maintenance.
+      3  saas { software as a service} : 
+                     delivers ready to use software over the internet.
+                     No need for local installation or maintenance.
 
 These models represent varying levels of control and responsibility for users  in the cloud environment.
 
 
 
- 	Architecture of cloud computing?
-It refers to the components and structure of a cloud environment, which enables the delivery of computing services over the internet. Here are the kye components.
+#  	Architecture of cloud computing?
+     It refers to the components and structure of a cloud environment, which enables the delivery of computing services over the internet. 
+     Here are the kye components.
 
-1 Front end  : where users interact (like a website or app)
-2 Back end :where services are provided. Including servers, storage, networking, security,    and management.
-3 Middleware : connects front end and back end. Allows them to work together.
-4 Cloud storage : where data is stored. Like a virtual hard drive.
-5 Deployment model : how cloud is set up. Public (for everyone) private (just for one  group) hybrid (mix). 
-6Service models : types of services you can use. Iaas (like renting a computer), Paas (building app), Saas(using software online).
-These setup lets people use powerful computing without needing their own big computers.
-
-
-
-
- 	 AWS global infrastructure count? 
-in September 2021, amazon  web services (AWS) had a global infrastructure presence in 81 availability zone  across 25 geographic regions. Please note that there might have been expansions or changes since then. For the most up-to-date information. I recommend checking AWS’s official website. 
-
-
- 	Why do we have Regions?
-1.	Redundancy and Disaster Recovery: ensures backup and recovery options in case of regional failures.
-2. Compliance and data sovereignty: adheres to local and regulatory requirements for data storage and processing.
-3. Latency optimization: reduces response times by locating resources close to users. 
-      4. Cost optimization: allows for cost-effective resource allocation based on regional pricing differences.
-      5. Resource scaling: enables access to additional capacity by leveraging multiple regions.
-      6. Industry compliance: meets specific industry standards for data handling and storage.
-      7. Testing and development environments: facilitates simulation of different user scenarios for optimal application performance.
-      8. Global presence: ensures a smooth user experience for a global audience.
-
-
-
- 	What is service? & what are resources?
-1 Service :
-                   A service is a set of functions or tasks performed by a system, program, or application. 
-                   It allows one component or system to request a specific function or action from another component, typically over a network.
-
-
-2 Resources : Resources refers to any data, information, or assets that are utilized or manipulated by a computer program or system. 
-This can include files, db, memory, processing power, network connections, etc.  
-In a broader context, resources can also refer to physical assets or commodities. 
+     1 Front end  : for users interact 
+                   (like a website or app)
+     2 Back end : for services are provided.
+                  Including servers, storage, networking, security,and management.
+    3 Middleware : connects front end and back end.
+                  Allows them to work together.
+    4 Cloud storage : for data is stored. 
+                     Like a virtual hard drive.
+    5 Deployment model : how cloud is set up. 
+                     Public (for everyone) private (just for one  group) hybrid (mix). 
+    6 Service models : types of services you can use. 
+                    Iaas (like renting a computer), Paas (building app), Saas(using software online).
+    These setup lets people use powerful computing without needing their own big computers.
 
 
 
 
+# 	 AWS global infrastructure count? 
+           In September 2021, amazon  web services (AWS) had a global infrastructure presence in 81 availability zone  across 25 geographic regions. 
+           Note that there might have been expansions or changes since then. For the most up-to-date information. I recommend checking AWS’s official website. 
+
+
+ #   Why do we have Regions?
+           Regions in cloud computing exist to provide geographic locations where data centers are situated, enabling users to deploy resources closer to their users, comply with data sovereignty laws, 
+           and enhance fault tolerance and resilience.
+
+
+
+#  	What is service? & what are resources?
+                   1 Service :
+                         A service is a "set of functions or tasks performed by a system, program, or application." 
+                         It allows one component or system to request a specific function or action from another component, typically over a network.
+
+
+                   2 Resources : "Resources refers to any data, information, or assets that are utilized or manipulated by a computer program or system." 
+                                This can include files, db, memory, processing power, network connections, etc.  
+                                In a broader context, resources can also refer to physical assets or commodities. 
 
 
 
@@ -93,151 +81,63 @@ In a broader context, resources can also refer to physical assets or commodities
 
 
 
-	IAM { Identity and Access Management }
 
 
 
- 	How many resources do we have in IAM?
-
-In AWS, IAM Identity and Access Management provides a variety of resources for managing user permissions and access to AWS services. These resources are given  follow:
-
-1. Users: Individuals or entities that interact with AWS resources. They can have permissions assigned to them via policies.
-
-2. Groups: Collections of users, making it easier to manage permissions by assigning policies to a group rather than individual users.
-
-3. Roles: IAM roles are used to delegate permissions to entities that you trust. These can be used by AWS services, applications, or users.
-
-4. Policies: Documents that define permissions in JSON format. These policies are attached to users, groups, or roles to grant or deny access to specific AWS resources.
-
-5. Access Keys: Access keys consist of an access key ID and secret access key, which are used for programmatic access to AWS services.
-
-6. Security Credentials: Includes passwords, access keys, and multi-factor authentication (MFA) devices used for securing and accessing AWS resources.
+**	IAM { Identity and Access Management } **
 
 
- 	Deployment model in IAM?
+
+# 	How many resources do we have in IAM?
+                AWS manages access to various AWS services and resources,
+                including users, groups, roles, policies, and permissions.
+
+ # 	Deployment model in IAM?
+         IAM is a cloud service that operates independently of specific deployment models, providing centralized control and management of  
+         user access to resources within various cloud deployment models, including public, private, hybrid, and multi-cloud environments.
  
-Here are the deployment models in IAM 
-1. On-Premises IAM:
-    Traditional model deployed within an organization's infrastructure.
-    Provides control and management over user access and permissions.
-    Often requires significant hardware, software, and maintenance.
-
-    2. Cloud IAM:
-    Hosted and managed by a cloud service provider.
-    Offers scalable and flexible identity management solutions.
-    Reduces infrastructure costs and maintenance responsibilities for organizations.
-
-3. Hybrid IAM:
-    Combines elements of both on-premises and cloud IAM.
-    Allows organizations to manage identities across both environments.
-   Offers flexibility in utilizing cloud and on-premises resources together.
+#   Identities in IAM ?
+                   Identities are the "people or entities who are given permission to use an organization's resources." These can be employees, contractors, partners, customers, or anyone who needs access.
+        Identities are usually "represented by user accounts or profiles in the IAM system." Each identity has certain characteristics like a username, password, email address, and roles or permissions that 
+        determine what they can do and what they can access.
 
 
- 	Identities in IAM ?
-Certainly! Here are the identities in IAM (Identity and Access Management) described in human-readable points:
-
-1. Users:
-    Individuals or entities granted access to a system or resources.
-    Represented by unique identifiers (username, email, etc.) and associated credentials (passwords, keys, etc.).
-
-2. Groups:
-    Collections of users with similar access needs or roles.
-    Allow easy management of permissions by assigning policies to a group instead of individual users.
-
-3. Roles:
-    Define a set of permissions that determine what actions an identity (user or service) can perform.
-   Allocated to users, groups, or services to grant specific access privileges.
-
-4. Policies:
-    Rules or permissions defining what actions are allowed or denied within a system or service.
-    Attached to users, groups, or roles to manage access to resources.
-
-5. Service Accounts:
-    Represent non-human entities like applications, services, or automated processes.
-    Have their own identities (keys, certificates, etc.) to access resources or perform actions on behalf of users or systems.
-
-6. Federated Identities:
-   Enable users to access multiple systems or services using a single set of credentials.
-    Established through trust relationships between different identity providers.
-
-These identities form the core components within an IAM system, facilitating the management of access and permissions to resources while ensuring security and control over an organization's infrastructure.
- 	What is the IAM user?
+#  	What is the IAM user?
+                   "A user is someone who interacts with a computer system or network." In IAM, an IAM user is an entity that represents a person or service that interacts with a system or network using login credentials 
+        such as a username and password. IAM users are created and managed within an IAM system
 
 
-Identity: The user represents an individual or entity (could be an employee, an application, or a service) needing access to specific resources or services within a system.
+ 	
+ #   What is the IAM group?
 
-Access Key: Similar to a physical key, the user is granted unique access credentials (username and password, or API keys) to unlock certain areas (resources, data, or functionalities) within a system or service.
+             In IAM a "Group is a logical collection or grouping of IAM users". Think of it as a folder that contains multiple individuals 
+             who share similar access permissions within a system.
+                 Collection of Users
+                 Simplified Management
+                 Role-Based Access
+                 Ease of Updates
+                 Security and Control
+              In essence, IAM groups are a way to simplify and streamline the management of permissions and access control by categorizing users based 
+              on their roles or common access needs within an organization's digital infrastructure.
+#   	What is the IAM policy?
+             IAM policies serve "as the rulebook or guidelines that dictate who has access to what resources and what actions they can perform," playing a crucial role 
+             in maintaining security and access control within an organization's digital ecosystem.
+ 
 
-Permissions: Just as some people have keys to certain rooms but not others, IAM users are granted permissions or rights to perform specific actions (like reading, writing, or deleting data) based on the policies or rules assigned to them.
+#     What is the IAM Role?
 
-Managed Access: IAM users are managed by administrators who control their access, modify permissions, or revoke access when needed.
-
- IAM users are the entities within a system that are authenticated and authorized to interact with resources or services, ensuring security and controlled access within an organization's digital environment.
- 	What is the IAM group?
-
-In IAM a Group is a logical collection or grouping of IAM users. Think of it as a folder that contains multiple individuals who share similar access permissions within a system.
-
-Collection of Users: A group is like a category or container that holds together users who share common access requirements or job roles within an organization.
-
-Simplified Management: Instead of assigning permissions individually to each user, administrators can allocate permissions and policies to a group. All users within that group inherit these permissions, making management more efficient.
-
-Role-Based Access: Groups are often organized based on job functions or responsibilities. For instance, an "Admin" group might have users with administrative privileges, a "Marketing" group could include users working in marketing roles, and so on.
-
-Ease of Updates: When access permissions need to change, modifying the group's permissions automatically affects all users within that group, streamlining the process of updating access across multiple individuals.
-
-Security and Control: Groups help enforce consistent security policies by ensuring that users with similar job roles or functions have consistent access permissions.
-
-In essence, IAM groups are a way to simplify and streamline the management of permissions and access control by categorizing users based on their roles or common access needs within an organization's digital infrastructure.
- 	What is the IAM policy?
-
-1. Permissions Blueprint :IAM policies are like detailed sets of rules or blueprints that define what actions can be performed on specific resources within a system.
-
-2. Access Control Instructions: They specify who (users, groups, or roles) can do what (perform certain actions) on which resources (like databases, files, or services).
-
-3.Granular Access: Policies allow fine-grained control, detailing precisely what actions are allowed or denied, such as read, write, delete, or modify actions.
-
-4.JSON Structure: Written in a specific format (usually JSON - JavaScript Object Notation), IAM policies contain clear statements that outline permissions, resources, and the entities to which they apply.
-
-5.Attachment to Identities: Policies are attached to IAM users, groups, or roles to manage their access rights within a system or service.
-
-6. Scalable Management: Policies enable scalable and centralized control over access, simplifying management by assigning permissions broadly to groups or narrowly to specific users or resources.
-
-7. Dynamic and Customizable: Administrators can create custom policies tailored to the needs of different user groups or applications, adapting access controls to evolving business requirements.
-
-8.Enforcement of Security Practices: IAM policies help enforce security best practices, ensuring that access to critical resources is controlled and aligned with an organization's security policies and compliance requirements.
-
-In essence, IAM policies serve as the rulebook or guidelines that dictate who has access to what resources and what actions they can perform, playing a crucial role in maintaining security and access control within an organization's digital ecosystem.
- 	What is the IAM Role?
-
-Roles in IAM offer a flexible and secure way to manage access control by defining and assigning granular permissions to various entities, ensuring that they have the right level of access required for specific tasks or functions.
+               Roles in IAM offer a flexible and secure way to manage access control by defining and assigning granular permissions to various entities, ensuring that they have the right level of access required for specific tasks or functions.
 
 
-1.Permission Set : IAM roles define a set of permissions that determine what actions an identity (user or service) can perform within a system or service.
 
-2.Temporary Access: Often used for temporary tasks, roles enable entities to assume specific permissions for a limited time, enhancing security by reducing long-term access.
-
-3.Assumed by Identities: Roles are assumed by IAM users, AWS services, applications, or even external identities through trusted relationships.
-
-4.Flexible Access Control: They grant access to resources across different AWS services or within an AWS account, allowing different entities to perform various tasks as defined by the role's permissions.
-
-5.Cross-Account Access: Roles can facilitate access between different AWS accounts, enabling secure sharing of resources or services across organizational boundaries.
-
-6.No Persistent Credentials: Roles do not have their own login credentials. Instead, entities assume roles temporarily, acquiring temporary security credentials to perform authorized actions.
-
-7.Policy-Based Permissions: Access permissions for roles are defined by policies attached to the role, specifying what actions can be performed on which resources.
-
- 	Where do we attach Identity Based Policy?
-  
-Identity-based policies are attached directly to users, groups, or roles within an IAM system, determining what actions these identities can perform on various resources or services within an organization's infrastructure.
+#  	Where do we attach Identity Based Policy?
+                  "Role is like a set of permissions that say what someone can do and what they can access in an organization's systems."
+        IAM roles are used to give specific privileges and access levels to people based on their jobs or responsibilities. These roles can be customized to fit the organization's needs.
+        When someone assumes a role, they automatically get the permissions that come with that role. This means they can do the things and access the resources defined in the role, without needing individual 
+        permissions. "IAM roles can be assigned to individual users, groups, or even to services."
 
 
-Users: Identity-based policies can be directly attached to individual users. For instance, you might grant a specific user permission to access certain files or services within a system by attaching a policy directly to their user profile.
-
-Groups: These policies can also be attached to groups, which simplifies management. For example, if you have a group of users with similar job roles, you can attach a policy to the group to grant them all the same access permissions.
-
-Roles: Identity-based policies are often attached to roles, defining the permissions that the role inherits. When a user assumes a role, they acquire the permissions associated with that role. This is particularly useful for temporary tasks or when switching between different job functions.
-
- 	Where do we attach Resource Based Policy?
+# 	Where do we attach Resource Based Policy?
 
 Resource-based policies are attached directly to the resources they are meant to protect or control access to within an IAM 
 
