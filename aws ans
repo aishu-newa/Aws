@@ -1,10 +1,10 @@
-**	Introduction **
+** Introduction **
 
 # 	What is cloud computing?
             Cloud computing is a technology that allows user to access and use computer resources like server, storage, db, networking, software, and more over the internet instead of relaying on local servers or personal devices, cloud computing uses a network of remote servers hosted on the internet to store, manage, and process data. This enables businesses and individuals to scale resources, access applications, and store data without the need for physical infrastructure. It’s a flexible and cost effective way to utilize computing power.
 
 
-# 	Deployment models in cloud?
+#  Deployment models in cloud?
             Here are 5 diff deployment models in cloud computing 
                             1.	Public cloud 
                             2.	Private cloud
@@ -14,7 +14,7 @@
            These models provide options for organizations to select the cloud environment that aligns best with their specific needs and objectives.
 
 
-# 	Service models in cloud?
+# Service models in cloud?
        1  Iaas {infrastructure as a service} :
                      provides virtualized computing resource.
                      Users manage applications , data, and runtime environment.
@@ -31,7 +31,7 @@ These models represent varying levels of control and responsibility for users  i
 
 
 
-#  	Architecture of cloud computing?
+#  Architecture of cloud computing?
      It refers to the components and structure of a cloud environment, which enables the delivery of computing services over the internet. 
      Here are the kye components.
 
@@ -52,7 +52,7 @@ These models represent varying levels of control and responsibility for users  i
 
 
 
-# 	 AWS global infrastructure count? 
+#  AWS global infrastructure count? 
            In September 2021, amazon  web services (AWS) had a global infrastructure presence in 81 availability zone  across 25 geographic regions. 
            Note that there might have been expansions or changes since then. For the most up-to-date information. I recommend checking AWS’s official website. 
 
@@ -63,7 +63,7 @@ These models represent varying levels of control and responsibility for users  i
 
 
 
-#  	What is service? & what are resources?
+#  What is service? & what are resources?
                    1 Service :
                          A service is a "set of functions or tasks performed by a system, program, or application." 
                          It allows one component or system to request a specific function or action from another component, typically over a network.
@@ -84,15 +84,15 @@ These models represent varying levels of control and responsibility for users  i
 
 
 
-**	IAM { Identity and Access Management } **
+** IAM { Identity and Access Management } **
 
 
 
-# 	How many resources do we have in IAM?
+#  How many resources do we have in IAM?
                 AWS manages access to various AWS services and resources,
                 including users, groups, roles, policies, and permissions.
 
- # 	Deployment model in IAM?
+ #  Deployment model in IAM?
          IAM is a cloud service that operates independently of specific deployment models, providing centralized control and management of  
          user access to resources within various cloud deployment models, including public, private, hybrid, and multi-cloud environments.
  
@@ -102,7 +102,7 @@ These models represent varying levels of control and responsibility for users  i
         determine what they can do and what they can access.
 
 
-#  	What is the IAM user?
+#  What is the IAM user?
                    "A user is someone who interacts with a computer system or network." In IAM, an IAM user is an entity that represents a person or service that interacts with a system or network using login credentials 
         such as a username and password. IAM users are created and managed within an IAM system
 
@@ -119,7 +119,7 @@ These models represent varying levels of control and responsibility for users  i
                  Security and Control
               In essence, IAM groups are a way to simplify and streamline the management of permissions and access control by categorizing users based 
               on their roles or common access needs within an organization's digital infrastructure.
-#   	What is the IAM policy?
+#   What is the IAM policy?
              IAM policies serve "as the rulebook or guidelines that dictate who has access to what resources and what actions they can perform," playing a crucial role 
              in maintaining security and access control within an organization's digital ecosystem.
  
@@ -130,99 +130,48 @@ These models represent varying levels of control and responsibility for users  i
 
 
 
-#  	Where do we attach Identity Based Policy?
+#  Where do we attach Identity Based Policy?
                   "Role is like a set of permissions that say what someone can do and what they can access in an organization's systems."
         IAM roles are used to give specific privileges and access levels to people based on their jobs or responsibilities. These roles can be customized to fit the organization's needs.
         When someone assumes a role, they automatically get the permissions that come with that role. This means they can do the things and access the resources defined in the role, without needing individual 
         permissions. "IAM roles can be assigned to individual users, groups, or even to services."
 
 
-# 	Where do we attach Resource Based Policy?
+#  Where do we attach Resource Based Policy?
 
 Resource-based policies are attached directly to the resources they are meant to protect or control access to within an IAM 
 
-Resource-Level Attachment: Resource-based policies are attached to specific resources, such as an S3 bucket, an AWS Lambda function, an Amazon RDS database, or an AWS Key Management Service (KMS) key.
 
-Resource Ownership: Owners or administrators of these resources define resource-based policies to manage who can access or manipulate them.
-
-Controlled Access: These policies dictate which identities (users, groups, or roles) or even other AWS accounts have permissions to interact with the resource.
-
-Granular Resource Control: Resource-based policies specify what actions are allowed or denied on that resource, defining the level of access for different entities.
-
-Independent from Identity: Unlike identity-based policies, resource-based policies are separate and independent from the identities accessing the resource. They control access to the resource itself rather than the actions allowed for specific users or roles.
-
-Cross-Account Access: Resource-based policies can also enable access from other AWS accounts, allowing sharing of resources across organizational boundaries.
-
- resource-based policies are attached directly to resources within an IAM system, specifying who can access the resource and what actions they can perform on that particular resource. These policies help control and manage access to individual resources independently of the identities trying to access them.
-
- 	Can we be able to create Policy via json code?
+#  Can we be able to create Policy via json code?
  
-  It's possible to create policies using JSON “JavaScript Object Notation” which is a              human-readable data interchange format. JSON allows you to structure data in a way that is easily readable by both humans and machines.
+  It's possible to create policies using JSON “JavaScript Object Notation” 
+Policies defined in JSON format can contain rules, permissions, conditions, and other criteria that define access control or govern behavior within a system or application.
+For example, in the context of access control, a policy might specify which users or groups have permission to perform certain actions on a system or resource.
 
-Policies defined in JSON format can contain rules, permissions, conditions, and other criteria that define access control or govern behavior within a system or application. For example, in the context of access control, a policy might specify which users or groups have permission to perform certain actions on a system or resource.
+  
 
-      A simple example of a policy defined in JSON format:
+#  What is dominator policy?
 
+         A dominator policy, in the context of access control, "refers to a policy that grants broader or higher-level permissions than other policies" within a given access control scheme, 
+          effectively having overriding authority or control over subordinate policies for certain resources or actions.
 
-{
-  "policyName": "ExamplePolicy",
-  "description": "This policy allows read-only access to certain resources",
-  "permissions": {
-    "read": true,
-    "write": false
-  },
-  "resources": [
-    "/data/documents",
-    "/data/images"
-  ],
-  "users": [
-    "user1",
-    "user2"
-  ],
-  "conditions": {
-    "requireMFA": true,
-    "requireEncryption": false
-  }
-}
+ #  What is ARN? What are the fields in ARN?
 
-In this example we can see the following terms:
-
-"policyName" and "description" provide a name and description for the policy.
-"permissions" specify whether the users allowed by this policy have read or write access.
-"resources" list the specific resources or paths this policy applies to.
-"users" indicate the users or user groups to which this policy applies.
-"conditions" define additional conditions or requirements that must be met for the policy to be effective, such as requiring multi-factor authentication (`"requireMFA"`) or encryption (`"requireEncryption"`).
-
-This JSON structure can be easily interpreted by developers, administrators, or systems handling access control.
-
-However, while JSON is human-readable, writing complex policies directly in JSON format can become cumbersome and error-prone. Many systems or tools that manage policies provide higher-level interfaces or domain-specific languages that abstract away the complexity of writing policies in raw JSON. These tools often offer graphical interfaces or simplified syntax to define policies more intuitively before translating them into JSON or their respective internal formats for execution.
-
-So, while creating policies in JSON is possible and human-readable, using specialized tools or interfaces might offer a more efficient and user-friendly way to manage policies in practice.
- 	If one user has created it by default, which permission has been assigned to that user?
-
-“By default, when a user creates a policy, that user is typically granted full permissions or administrative privileges over that policy unless otherwise specified.”
-
- 	What is dominator policy?
-
-A dominator policy, in the context of access control, refers to a policy that grants broader or higher-level permissions than other policies within a given access control scheme, effectively having overriding authority or control over subordinate policies for certain resources or actions.
-
- 	What is ARN? What are the fields in ARN?
-
-ARN stands for Amazon Resource Name. It is a unique identifier assigned to resources in the Amazon Web Services (AWS) ecosystem. 
-The fields in an ARN typically include the 
-1Service name
-2 Region
-3 Account ID
-4 Resource type 
-5 Resource-specific information.
+         ARN stands for Amazon Resource Name. It is a unique identifier assigned to resources in the Amazon Web Services (AWS) ecosystem. 
+          The fields in an ARN typically include the 
+                       1 Service name
+                       2 Region
+                       3 Account ID
+                      4 Resource type 
+                        5 Resource-specific information.
 
      To identify resources and has the following fields:
          arn:partition:service:region:account-id:resource   
     example: AWS S3 bucket ARN look like : arn:aws:s3:::my_bucket
 
 
- 	How many types of ARN partition?
-As of my last knowledge update in January 2022, there are two types of ARN partitions used in AWS:
+ #   How many types of ARN partition?
+As of my last knowledge update in January 2022, there are "two types" of ARN partitions used in AWS:
 
 1.AWS Partition: Used for standard AWS resources like EC2 instances, S3 buckets, etc.
 2.AWS GovCloud Partition {US}: Used for resources in AWS GovCloud, which is designed for U.S. government agencies and customers who need to adhere to strict compliance regulation.
