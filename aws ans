@@ -79,12 +79,8 @@ These models represent varying levels of control and responsibility for users  i
 
 
 
+                                               ** IAM { Identity and Access Management } **
 
-
-
-
-
-** IAM { Identity and Access Management } **
 
 
 
@@ -185,7 +181,9 @@ Tags are metadata labels used to annotate{like a comment or note} and categorize
 
 
 
-	**  S3 {simple storage service}  **
+                                 			**  S3 {simple storage service}  **
+
+
 
 
 #  Difference between Block storage and Object storage?
@@ -268,10 +266,10 @@ Tags are metadata labels used to annotate{like a comment or note} and categorize
 
        Life cycle rules are necessary for several reasons like:
 
-                        1.DataManagement:
+                        1.DataManagement
                         2.Compliance
-                        3.Cost Optimization:
-                        4. Security :
+                        3.Cost Optimization
+                        4. Security 
 Overall, life cycle rules help organizations manage their data more effectively, comply with regulations, reduce costs, and enhance security by defining a
           clear path for how data should be handled from creation to disposal.
 
@@ -292,17 +290,17 @@ Overall, life cycle rules help organizations manage their data more effectively,
             To give public access to S3 bucket, you can use bucket policies or access control lists (ACLs). 
             Here's a guide using bucket policies via the AWS Management Console:
 
-            1.Sign in to AWS Console:
+            1.Sign in to AWS Console
 
-            2.Access S3 Service:
+            2.Access S3 Service
    
-            3.Select the Bucket:
+            3.Select the Bucket
 
-            4.Permissions Tab:
+            4.Permissions Tab
 
-            5.Bucket Policy:
+            5.Bucket Policy
 
-  					6.Save Changes:
+  	    6.Save Changes
    
 
 #   	AWS pricing factor of the s3 service?
@@ -336,7 +334,7 @@ Overall, life cycle rules help organizations manage their data more effectively,
 
 
 
-	AWS Cloud Trail 
+     							** AWS Cloud Trail ** 
 
 
 
