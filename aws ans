@@ -1,4 +1,4 @@
-** Introduction **
+* Introduction **
 
 # 	What is cloud computing?
             Cloud computing is a technology that allows user to access and use computer resources like server, storage, db, networking, software, and more over the internet instead of relaying on local servers or personal devices, cloud computing uses a network of remote servers hosted on the internet to store, manage, and process data. This enables businesses and individuals to scale resources, access applications, and store data without the need for physical infrastructure. It’s a flexible and cost effective way to utilize computing power.
@@ -349,8 +349,39 @@ Overall, life cycle rules help organizations manage their data more effectively,
 
 #     Explain how we can create a trail in aws cloud trail?
 	    You can create a trail in AWS CloudTrail by accessing the AWS Management Console, selecting CloudTrail, and following the
-prompts to set up a new trail configuration.
+            prompts to set up a new trail configuration.
+
+#     How can we enable logging for S3 bucket using cloud trails ?
+ 	   To enable logging for an S3 bucket using CloudTrail, you need to create a trail in the CloudTrail console and specify the S3 bucket where you want the CloudTrail logs to be stored;
+            ensure the S3 bucket has appropriate permissions for CloudTrail to write logs.
+
+#     How do you get the list of all created trailers in your production account ?
+
+	   Using AWS Management Console:
+            Sign in to AWS Management Console: Go to the AWS Management Console (https://console.aws.amazon.com/) and sign in to your AWS account.
+
+           Open CloudTrail Service:
+            View Trails: In the CloudTrail dashboard, select "Trails" from the left-hand menu. Here, you'll see a list of all the trails created in your AWS account, 
+            along with their names, regions, status, and other details.
+
+#      Can we create a trail for a multi region, if yes then how can we configure it ?
+
+        Yes, AWS CloudTrail allows you to create a trail that covers multiple regions.
+        While creating a new tril after giving a name simplay "Apply trail to all regions," select the checkbox to apply the trail to all regions. And complet all the configratuation as needed.
 
 
+#      How can we disable the logging for certain events, services in cloud trail, If yes so explain how ?
+        You can disable logging for certain events or services in CloudTrail by modifying the trail's configuration and deselecting specific event sources
+        or services from being logged.
 
+#   	Real time use case of cloud trail ?
+         Tracking and auditing changes made to AWS resources by monitoring API activity across services in real-time using CloudTrail.
+
+
+#      	What is cloud trail event history ?
+
+        CloudTrail Event History refers to the detailed records or logs of API events captured and stored by AWS CloudTrail.
+        These logs contain information about the API calls and actions performed within an AWS account, including details
+
+#      
  	
