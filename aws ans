@@ -338,9 +338,18 @@ Overall, life cycle rules help organizations manage their data more effectively,
 
 
 
- 	What is a cloud trail?
- 	Why do we use trails, what is the exact purpose of enabling the trail in cloud production accounts?
- 	Explain how we can create a trail in aws cloud trail?
+#     What is a cloud trail?
+ 	    CloudTrail is a service that records and logs all API calls made in an AWS account, providing a history of activity for auditing, compliance, and
+            troubleshooting purposes.
+
+
+#     Why do we use trails, what is the exact purpose of enabling the trail in cloud production accounts?
+            Enabling trails in cloud production accounts provides detailed logs of API activity, aiding in security monitoring, compliance, and troubleshooting.
+
+
+#     Explain how we can create a trail in aws cloud trail?
+	    You can create a trail in AWS CloudTrail by accessing the AWS Management Console, selecting CloudTrail, and following the
+prompts to set up a new trail configuration.
 
 
 
