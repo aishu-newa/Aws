@@ -380,8 +380,49 @@ Overall, life cycle rules help organizations manage their data more effectively,
 
 #      	What is cloud trail event history ?
 
-        CloudTrail Event History refers to the detailed records or logs of API events captured and stored by AWS CloudTrail.
-        These logs contain information about the API calls and actions performed within an AWS account, including details
+       CloudTrail event history is a record of API activity and resource changes within an AWS account.
 
-#      
+#      What is log file integrity validation in cloud trail ?
+       Log file integrity validation in CloudTrail ensures that recorded events remain tamper-free and trustworthy, safeguarding the integrity of audit trails.
+
+
+#      what is SNS ?
+       SNS stands for Simple Notification Service.
+
+
+#     Why do we use SNS ?
+      We use SNS to send notifications and messages to distributed systems or users across various endpoints, ensuring efficient communication and scalability.
+
+#     What is an Amazon SNS function, and how we can configure it ?
+      An Amazon SNS function is a mechanism allowing integration of Lambda functions to process incoming notifications, configured by specifying 
+       the Lambda function as a subscriber to an SNS topic.
+
+#     Difference between Amazon SNS & Amazon SQS
+          Amazon SNS (Simple Notification Service) is a message distribution service that sends notifications to multiple recipients simultaneously, and
+     Amazon SQS (Simple Queue Service) is a message queuing service that allows decoupling of distributed systems by storing and processing messages in a queue.
+
+#     What are the different delivery formats and transports in AWS SNS
+      In AWS SNS, the different delivery formats include JSON, raw text, and application-specific formats, while transports encompass HTTP/HTTPS, 
+        email, SMS, Lambda functions, SQS queues, mobile push notifications, etc.
+
+#     What is the difference between SNS FIFO & Standard while creating the SNS topic.
+      in SNS topic the difference between FIFO and Standard is as belo
+
+    1. FIFO (First-In-First-Out): Ensures messages are delivered in the order they are sent, maintaining strict message sequencing.
+    2. Standard: Offers high throughput and low latency, but doesn't guarantee message order preservation, allowing for greater scalability.
+
+#    On which services are configured with the AWS SNS 
+     AWS SNS can be configured with various AWS services, including but not limited to:
+
+     1. Lambda Functions
+     2. SQS Queues
+     3. HTTP/HTTPS Endpoints
+     4. Mobile Push Notifications (iOS, Android)
+     5. Email
+     6. SMS (Text Messages)
+     7. Application-Specific Formats (e.g., JSON)
+     8. EventBridge (formerly CloudWatch Events)
+     9. AWS IoT Core
+     10. Amazon Simple Email Service (SES)
+
  	
