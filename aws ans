@@ -456,8 +456,11 @@ Overall, life cycle rules help organizations manage their data more effectively,
 4. Access a wide range of instance types to suit various workloads.
 
 #  What is EC2, Why do we need EC2 service in cloud computing ?
+    EC2 (Elastic Compute Cloud) is a cloud service that provides virtual servers, allowing users to easily deploy and
+    manage computing resources without the need for physical hardware.
 
 #
+
 
 #
 		
