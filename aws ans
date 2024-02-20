@@ -181,7 +181,7 @@ Tags are metadata labels used to annotate{like a comment or note} and categorize
 
 
 
-                                 			**  S3 {simple storage service}  **
+                                 		    	**  S3 {simple storage service}  **
 
 
 
@@ -334,7 +334,7 @@ Overall, life cycle rules help organizations manage their data more effectively,
 
 
 
-     							** AWS Cloud Trail ** 
+     							                         ** AWS Cloud Trail ** 
 
 
 
@@ -411,18 +411,53 @@ Overall, life cycle rules help organizations manage their data more effectively,
     1. FIFO (First-In-First-Out): Ensures messages are delivered in the order they are sent, maintaining strict message sequencing.
     2. Standard: Offers high throughput and low latency, but doesn't guarantee message order preservation, allowing for greater scalability.
 
-#    On which services are configured with the AWS SNS 
+#     which services are configured with the AWS SNS 
      AWS SNS can be configured with various AWS services, including but not limited to:
 
      1. Lambda Functions
      2. SQS Queues
      3. HTTP/HTTPS Endpoints
      4. Mobile Push Notifications (iOS, Android)
-     5. Email
+     5. Email	
      6. SMS (Text Messages)
      7. Application-Specific Formats (e.g., JSON)
      8. EventBridge (formerly CloudWatch Events)
      9. AWS IoT Core
      10. Amazon Simple Email Service (SES)
 
- 	
+#  What is 10DLC in AWS? 
+      10DLC stands for: 10 Digit Long Code
+       in AWS refers to a messaging service that allows businesses to send text messages to
+       customers using their 10-digit phone numbers, providing a more reliable and secure communication channel.
+
+
+#  What are FIFO topics on SNS?
+     FIFO stands for: Simple Notification Service
+     are like waiting lines for messages, ensuring that the messages are delivered in the same order they were sent. 
+     It's like a queue at a store where the first person in line gets served first.
+
+
+# 	What is SNS Mobile Push?
+	SNS Mobile Push is a feature in Amazon Simple Notification Service (SNS) that lets businesses send notifications, like text messages or alerts,
+ 	to mobile devices such as smartphones or tablets.
+
+#	On which delivery method do we use and configure the subscription ?
+	We use and configure subscriptions on the delivery method where we want to receive notifications.
+
+
+
+															*EC2*
+#	What is EC2, Why do we need EC2 service in cloud computing ?
+    EC2 is a service in cloud computing that provides resizable compute capacity in the form of virtual servers, called instances,
+    hosted on the cloud :
+1. Easily scale computing resources up or down based on demand.
+2. Pay only for the resources used, reducing upfront costs.
+3. Quickly deploy and manage applications without the need for physical hardware.
+4. Access a wide range of instance types to suit various workloads.
+
+#  What is EC2, Why do we need EC2 service in cloud computing ?
+
+#
+
+#
+		
