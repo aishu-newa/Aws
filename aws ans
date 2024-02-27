@@ -1,7 +1,9 @@
 * Introduction **
 
 # 	What is cloud computing?
-            Cloud computing is a technology that allows user to access and use computer resources like server, storage, db, networking, software, and more over the internet instead of relaying on local servers or personal devices, cloud computing uses a network of remote servers hosted on the internet to store, manage, and process data. This enables businesses and individuals to scale resources, access applications, and store data without the need for physical infrastructure. It’s a flexible and cost effective way to utilize computing power.
+            Cloud computing is a technology that allows user to access and use computer resources like server, storage, db, networking, software, and more over the internet instead of relaying on local servers
+            or personal devices, cloud computing uses a network of remote servers hosted on the internet to store, manage, and process data. This enables businesses and individuals to scale resources, access applications, and store data without the need for physical infrastructure. 
+             It’s a flexible and cost effective way to utilize computing power.
 
 
 #  Deployment models in cloud?
@@ -446,8 +448,10 @@ Overall, life cycle rules help organizations manage their data more effectively,
 
 
 
-															*EC2*
-#	What is EC2, Why do we need EC2 service in cloud computing ?
+							*EC2*
+
+
+#	What is EC2 ?
     EC2 is a service in cloud computing that provides resizable compute capacity in the form of virtual servers, called instances,
     hosted on the cloud :
 1. Easily scale computing resources up or down based on demand.
@@ -455,12 +459,31 @@ Overall, life cycle rules help organizations manage their data more effectively,
 3. Quickly deploy and manage applications without the need for physical hardware.
 4. Access a wide range of instance types to suit various workloads.
 
-#  What is EC2, Why do we need EC2 service in cloud computing ?
+#  Why do we need EC2 service in cloud computing ?
     EC2 (Elastic Compute Cloud) is a cloud service that provides virtual servers, allowing users to easily deploy and
     manage computing resources without the need for physical hardware.
+ 
+#   Features of Amazon EC2 ?
+    It is highly Scalabil, Variety of Instance Types, Pay-As-You-Go Pricing, Security, Flexibility, Elastic Load Balancing, these are the some 
+    features.
 
-#
+#  What is Hypervisor ? and its types ?
+   there are two types of hypervisor :
+   1 Bare Metal =runs directly on the physical hardware of a computer, without requiring a separate operating system
+   2 Hosted =A hosted hypervisor is a virtualization platform that runs on top of an existing operating system, 
+             allowing users to create and manage virtual machines within it.
 
 
-#
+#  Where we use hypervisor?
+   Hypervisors are used in data centers and cloud computing environments to efficiently manage and allocate physical hardware resources
+    among multiple virtual machines or virtualized environments.
+
+# Steps to create an EC2 instance
+  Launch an EC2 instance by selecting an Amazon Machine Image (AMI), choosing an instance type, configuring instance details such as 
+  network settings and storage, and finally, reviewing and launching the instance.
+
+# EC2 Instance state
+ Pending, Running, Stopping, Stopped, Shutting and downTerminated.
+
+# How many types of EC2 Instance-State codes ?
 		
