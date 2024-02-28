@@ -496,4 +496,40 @@ Overall, life cycle rules help organizations manage their data more effectively,
 #  What is the meaning of server hibernating mode?
    this is state where server is in like a spleep mode but it can quickly wake up and resume normal operation.
 
-#  
+#  What is KMS ?
+  KMS=Key Management Service
+
+# AWS Amazon EC2 Instance types ?
+   General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, Accelerated Computing these are the tpes of instance.
+
+# How many types of status checks happen in aws?
+   there are 3 types of status check happen in aws 1: 0/2= software cheack   2: 1/2= hardware chack   3 :2/2 all good
+
+# When we see the global view option in ec2 service ?
+  these feature provides a centralized view of instance accros multipal regions 
+
+# When we logged into the cloud account by default why do we always jump into the north virginia region, why it’s most popular ?
+  AWS has a large number of data centers in the North Virginia region, ensuring high availability for hosted resources.
+
+# What are EBS Volumes and its types?
+  It is a block storage device 
+types =General Purpose SSD (gp2)
+       Provisioned IOPS SSD (io1)
+       Throughput Optimized HDD (st1)
+       Cold HDD (sc1)
+       Magnetic (Standard)
+
+# Purpose of Using EBS volumes?
+   The purpose of using EBS volumes is to provide durable, scalable block storage that
+   can be attached to EC2 instances to store data constantly.
+
+# How many types of purchasing options do we have in aws ec2 ?
+    On-Demand Instances, Reserved Instances (RI),Spot Instances dedicated host, dedicated instance.
+
+#  Difference between AWS AMI Image & AWS Template ?
+# 
+# 
+ 
+
+
+
