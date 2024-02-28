@@ -1,9 +1,8 @@
 * Introduction **
 
 # 	What is cloud computing?
-            Cloud computing is a technology that allows user to access and use computer resources like server, storage, db, networking, software, and more over the internet instead of relaying on local servers
-            or personal devices, cloud computing uses a network of remote servers hosted on the internet to store, manage, and process data. This enables businesses and individuals to scale resources, access applications, and store data without the need for physical infrastructure. 
-             It’s a flexible and cost effective way to utilize computing power.
+            Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics,
+           and intelligence—over the cloud to offer faster innovation, flexible resources, and economies of scale.
 
 
 #  Deployment models in cloud?
@@ -13,7 +12,7 @@
                             3.	Hybrid cloud
                             4.	Community cloud
                             5.	Multi cloud
-           These models provide options for organizations to select the cloud environment that aligns best with their specific needs and objectives.
+These models provide options for organizations to select the cloud environment that aligns best with their specific needs and objectives.
 
 
 # Service models in cloud?
@@ -486,4 +485,11 @@ Overall, life cycle rules help organizations manage their data more effectively,
  Pending, Running, Stopping, Stopped, Shutting and downTerminated.
 
 # How many types of EC2 Instance-State codes ?
+ 0 (pending)
+16 (running)
+32 (shutting-down)
+48 (terminated)
+64 (stopping)
+80 (stopped)
+96 (stopping)
 		
