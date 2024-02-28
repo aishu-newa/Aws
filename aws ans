@@ -492,4 +492,8 @@ Overall, life cycle rules help organizations manage their data more effectively,
 64 (stopping)
 80 (stopped)
 96 (stopping)
-		
+
+#  What is the meaning of server hibernating mode?
+   this is state where server is in like a spleep mode but it can quickly wake up and resume normal operation.
+
+#  
