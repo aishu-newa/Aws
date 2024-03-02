@@ -527,9 +527,18 @@ types =General Purpose SSD (gp2)
     On-Demand Instances, Reserved Instances (RI),Spot Instances dedicated host, dedicated instance.
 
 #  Difference between AWS AMI Image & AWS Template ?
-# 
-# 
- 
+   An AWS AMI image is a snapshot of a virtual machine, and 
+    an AWS template is a blueprint defining the infrastructure resources and configurations needed for deploying applications.
 
+# What is NIC & it’s types ?
+  NIC stands for Network Interface Card, and types of NIC is wireless, bulethooth, fiber optic, modem nic, ethernet these are some.
+
+# What is elastic IP ? & WHY were we used ?
+  An Elastic IP (EIP) is a static IPv4 address designed for dynamic cloud computing on the AWS platform, 
+   primarily used for persistent public IP mapping to instances for easier management and avoiding frequent IP changes.
+ 
+# What is the snapshot and why we use it ?
+   A snapshot is a point-in-time copy of data stored on a storage device, 
+   commonly used in cloud computing for creating backups, disaster recovery, and cloning instances or volumes.
 
 
