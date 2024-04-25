@@ -542,3 +542,83 @@ types =General Purpose SSD (gp2)
    commonly used in cloud computing for creating backups, disaster recovery, and cloning instances or volumes.
 
 
+
+
+******Intro questions*******
+
+ What is snowball?
+Answer: Snowball is a data transport solution that used source appliances to transfer large amounts of 
+data into and out of AWS. Using snowball, you can move huge amount of data from one place to 
+another which reduces your network costs, long transfer times and also provides better security.
+
+ What are deployment strategies?
+Deployment strategies are methodologies or approaches used to release software changes 
+into production environments while minimizing disruption and risk.
+
+  What is ALB and where we use it ?
+ ALB (Application Load Balancer) is a type of load balancer used
+ to distribute incoming application traffic across multiple targets, such as EC2 instances, containers, and Lambda functions, within AWS environments.
+
+Can we access S3 bucket privately ?
+Yes, S3 buckets can be accessed privately by configuring bucket policies or
+using ACM such as IAM policies to restrict access only to authorized users or applications.
+
+ Difference Between net instance and net gateway ?
+A "net instance" typically refers to an instance in a network like a virtual machine,
+while a "net gateway" usually denotes a network gateway device responsible for routing traffic between different networks.
+
+ Concept of bashnhost ?
+which is a secure server positioned on a network's perimeter to provide access to internal resources while enforcing strict security measures.
+
+ How to restrict Public IP of particular instance ?
+To restrict the public IP of a particular instance, you can use security group rules or network
+ACLs to allow access only from specific IP addresses or ranges.
+
+ difference between VPC pairing and transit gateway ?
+VPC peering allows direct communication between VPCs,
+while a transit gateway acts as a central hub to connect multiple VPCs and on-premises networks in a hub-and-spoke architecture.
+
+How to prevent dedos attack and which load balancer we should use ?
+To prevent DDoS attacks, implement measures like rate limiting, traffic filtering,
+and utilizing a DDoS protection service; for load balancing, AWS Shield can be used with ALB or NLB.
+
+What are Sticky sessions ?
+Sticky sessions, also known as session affinity, ensure that subsequent requests from the 
+same client are directed to the same backend server, maintaining session state in load-balanced environments.
+
+Trust Relationship in AWS ?
+Trust relationship in AWS defines which entities (such as IAM users, roles, or AWS services) 
+ are allowed to assume a particular IAM role, granting access permissions based on defined policies.
+
+Difference between public IP and private IP ?
+Public IP addresses are globally routable and used for communication over the internet, 
+while private IP addresses are used for communication within a local network and are not globally routable.
+
+How we can establish connection between EC2 and another EC2 instance in different regions.?
+To establish a connection between EC2 instances in different regions, you typically need to use network communication methods
+such as inter-region VPC peering, VPN connections, or public internet communication with appropriate security configurations and network routing settings.
+
+How can you encrypt already created EBS volume without creating fresh EC2 instance?
+You can encrypt an already created EBS volume without creating a fresh EC2 instance by creating a 
+snapshot of the volume, copying it with encryption enabled, and then creating a new encrypted volume from the copied snapshot.
+
+How can we recover the deleted S3 Object?
+You can recover a deleted S3 object by enabling versioning on the bucket and restoring the object's previous version from the bucket's version history.
+
+How do you route data only to one EC2 instance when your ALB has 5 server connected?
+
+How we can auto recover EC2 instance?
+
+How do you authorized data to ALB?
+
+How to connect on premises data center to AWS data center?
+How do you configure the bucket ?
+What is your roles and responsibilities in your project?
+Daily activities what you have done in your project ?
+3 member have the same password one I have to change write the script for 
+this example ?
+Tell me something about your project ?
+What are the ec2 and VPC ? How do we create ? We can create it through 
+script as well ?
+What is server patching ?
+
