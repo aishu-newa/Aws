@@ -168,9 +168,11 @@ For example, in the context of access control, a policy might specify which user
 
 
  #   How many types of ARN partition?
-
-
-
+       There are three partition and those are
+       aws, 
+       asw-cn,
+       aws-us-gov.
+ 
 
  #   What are tags?
 
